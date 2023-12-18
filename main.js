@@ -23,3 +23,7 @@ function createGrid() {
 		}
 	}
 }
+
+const createGridButton = document.getElementById("create-grid");
+
+createGridButton.addEventListener("click", createGrid);
